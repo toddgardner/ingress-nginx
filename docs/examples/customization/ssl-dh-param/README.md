@@ -27,7 +27,7 @@ $ kubectl create -f configmap.yaml
 ## Custom DH parameters secret
 
 ```console
-$> openssl dhparam 1024 2> /dev/null | base64
+$> openssl dhparam 2048 2> /dev/null | base64
 LS0tLS1CRUdJTiBESCBQQVJBTUVURVJ...
 ```
 
